@@ -47,7 +47,7 @@ public class Manusia {
 
     public String toString() {
         return "\nNama\t\t: " + nama + "\nNIK\t\t: " + nik + "\nJenis Kelamin\t: "
-                + (jenisKelamin ? "Laki-laki" : "Perempuan")
+                + (jenisKelamin ? "Laki-laki" : "Perempuan") + "\nSudah Menikah: " + (menikah ? "Sudah" : "Belum")
                 + "\nPendapatan\t: $" + getPendapatan();
     }
 }
