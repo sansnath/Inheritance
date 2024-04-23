@@ -49,6 +49,6 @@ public class MahasiswaFilkom extends Manusia {
     }
 
     public String toString() {
-        return super.toString() + "\nNIM: " + getNim() + "\nIPK: " + getIpk() + "\nStatus: " + getStatus();
+        return super.toString() + "\nNIM\t\t: " + getNim() + "\nIPK\t\t: " + getIpk() + "\nStatus\t\t: " + getStatus();
     }
 }

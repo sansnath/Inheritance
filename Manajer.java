@@ -20,6 +20,6 @@ public class Manajer extends Pekerja {
     }
 
     public String toString() {
-        return super.toString() + "\nDepartemen: " + departemen;
+        return super.toString() + "\nDepartemen\t: " + departemen;
     }
 }

@@ -52,9 +52,10 @@ public class Pekerja extends Manusia {
     }
 
     public String toString() {
-        return super.toString() + "\nTahun Masuk: " + tahunMasuk.getYear() + "\nLama Bekerja: " + hitungLamaBekerja()
+        return super.toString() + "\nTahun Masuk\t: " + tahunMasuk.getYear() + "\nLama Bekerja\t: "
+                + hitungLamaBekerja()
                 + " tahun"
-                + "\nJumlah Anak: " + jumlahAnak + "\nGaji: $" + getGaji() + "\nBonus: $" + getBonus();
+                + "\nJumlah Anak\t: " + jumlahAnak + "\nGaji\t\t: $" + getGaji() + "\nBonus\t\t: $" + getBonus();
     }
 
 }
